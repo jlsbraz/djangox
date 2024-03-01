@@ -25,6 +25,8 @@ INSTALLED_APPS = [
     # Third-party
     "allauth",
     "allauth.account",
+    "allauth.socialaccount",
+    "allauth.socialaccount.providers.google",
     "crispy_forms",
     "crispy_bootstrap5",
     "debug_toolbar",
